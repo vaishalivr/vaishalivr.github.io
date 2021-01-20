@@ -6,4 +6,6 @@
 .logo_img {
   display:inline;
   width:20px;
+  height:auto;
+  margin:0.25em;
 }
