@@ -1,6 +1,6 @@
 .social {
   display:flex;
-  max-width:100px;
+  max-width:100%;
 }
 
 .logo_img {
