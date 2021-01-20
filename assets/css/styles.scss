@@ -5,13 +5,13 @@
 
 .social{
   width:100px;
-   display:inline;
+  display:inline;
 }
 
 .logo_img{
   display:flex;
   flex-direction:row;
-  width:20px;
-  height:20px;
+  max-width:20%;
+  max-height:20%;
   justify-content:center;
 }
