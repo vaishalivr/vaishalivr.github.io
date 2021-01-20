@@ -1,0 +1,11 @@
+.social {
+  width:100px;
+  display:inline;
+}
+
+.logo_img {
+  display:flex;
+  flex-direction:row;
+  max-width:10%;
+  max-height:10%;
+}
