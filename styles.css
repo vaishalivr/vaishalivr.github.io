@@ -5,6 +5,5 @@
 
 .logo_img {
   display:inline;
-  flex-direction:row;
-  max-width:20px;
+  width:20px;
 }
