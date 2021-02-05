@@ -21,7 +21,7 @@ body {
 }
 .samples {
   display: flex;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .article-img {
