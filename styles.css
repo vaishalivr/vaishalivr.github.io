@@ -24,8 +24,6 @@ body {
 .samples {
   display: flex;
   height:300px;
-  width:300px;
-  margin:300px;
 }
 
 .article-img {
