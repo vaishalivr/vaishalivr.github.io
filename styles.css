@@ -1,8 +1,6 @@
 body {
   font-family:sans-serif;
   padding:10px;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 .social {
@@ -26,6 +24,8 @@ body {
 .samples {
   display: flex;
   height:300px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .article {
@@ -37,8 +37,7 @@ body {
   width:200px;
   height:200px;
   display:block;
-  margin-left:auto;
-  margin-right:auto;
+  margin:auto;
   width:60%;
 }
 
