@@ -23,7 +23,7 @@ body {
 
 .samples {
   display: flex;
-  height:300px;
+  height:400px;
   margin-left:auto;
   margin-right:auto;
   border:1px solid black;
