@@ -31,6 +31,8 @@ body {
 
 .samples > article {
   width: calc(100%/3);
+  text-align:center;
+  padding:15px;
 }
 
 .article {
