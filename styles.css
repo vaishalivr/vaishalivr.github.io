@@ -24,8 +24,6 @@ body {
 .samples {
   display: flex;
   height:300px;
-  margin-left:50px;
-  margin-right:50px;
 }
 
 .article {
