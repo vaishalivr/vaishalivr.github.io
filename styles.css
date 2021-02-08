@@ -27,6 +27,10 @@ body {
   
 }
 
+.article {
+  width:33.33%
+}
+
 .article-img {
   width:200px;
   height:200px;
