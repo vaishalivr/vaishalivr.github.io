@@ -3,6 +3,9 @@ body {
   padding:10px;
 }
 
+.phyllotaxis {
+  display:flex;
+}
 .social {
   display:flex;
   max-width:100%;
