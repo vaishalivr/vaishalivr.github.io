@@ -47,8 +47,7 @@ body {
 .article {
   border:1px solid black;
   text-align:center;
-  padding-left:75px;
-  padding-right:75px;
+  justify-content:space-around;
   padding-top:0;
   text-align:justify;
   text-justify: inter-word;
