@@ -11,7 +11,7 @@
   </head>
   
   <body>
-	  <svg width = '500' height = '500'></svg>
+	  <div id = 'phyllotaxis'></div>
     <header>
         <h1>Vaishali Verma</h1>
         <p>I deal with data + design + development and tell you a great story. </p>
@@ -159,14 +159,17 @@
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
-	    
-	var svg = d3.select('svg')
+	var width = 500;
+	var height = 500;
+    
+	var svg = d3.select('#phyllotaxis')
+		.append('svg')
 		.attr('width', 500)
 		.attr('height', 500)
 		.append('g');
 	    
 	var radius = 3;
-	var points = d3.range(1000).map(phyllotaxis(10));
+	var points = d3.range(600).map(phyllotaxis(6));
 	    
 	svg.selectAll('.point').data(points)
 		.enter().append('circle')
