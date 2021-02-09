@@ -166,7 +166,9 @@
 		.append('svg')
 		.attr('width', 500)
 		.attr('height', 500)
-		.append('g');
+		.append('g')
+		.attr('transform', 'translate(500,0)')
+		.attr('class', 'phyllotaxis');
 	    
 	var radius = 3;
 	var points = d3.range(600).map(phyllotaxis(6));
