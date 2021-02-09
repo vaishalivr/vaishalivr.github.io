@@ -4,7 +4,7 @@ var height = 300;
 	var svg = d3.select('svg')
 		.attr('width', width)
 		.attr('height', height)
-		.attr('transform', 'translate(1000,0)')
+		.attr('transform', 'translate(700,0)')
 		.append('g')
 		.attr('class', 'phyllotaxis');
 	    
