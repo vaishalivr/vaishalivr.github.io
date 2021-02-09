@@ -12,7 +12,10 @@ var height = 300;
 	var points = d3.range(600).map(phyllotaxis(6));
 	    
 	svg.selectAll('.point').data(points)
-		.enter().append('circle')
+		.enter()
+		.append('circle')
+		.transition()
+		.duration(3000)
   		.attr("cx", function(d) { return d[0] + radius; })
 	  	.attr("cy", function(d) { return d[1]; })
   		.attr("r", radius)
