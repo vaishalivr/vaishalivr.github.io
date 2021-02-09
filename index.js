@@ -5,7 +5,7 @@ var height = 300;
 		.append('svg')
 		.attr('width', width)
 		.attr('height', height)
-		.attr('transform', 'translate(500,0)')
+		.attr('transform', 'translate(1000,0)')
 		.append('g')
 		.attr('class', 'phyllotaxis');
 	    
