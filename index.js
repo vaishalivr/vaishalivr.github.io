@@ -5,8 +5,8 @@ var height = 500;
 		.append('svg')
 		.attr('width', 500)
 		.attr('height', 500)
-		.append('g')
 		.attr('transform', 'translate(500,0)')
+		.append('g')
 		.attr('class', 'phyllotaxis');
 	    
 	var radius = 3;
