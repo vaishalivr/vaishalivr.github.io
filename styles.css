@@ -47,9 +47,11 @@ body {
 .article {
   border:1px solid black;
   text-align:center;
-  padding-left:100px;
-  padding-right:100px;
+  padding-left:75px;
+  padding-right:75px;
   padding-top:0;
+  text-align:justify;
+  text-justify: inter-word;
 }
 
 .article-img {
