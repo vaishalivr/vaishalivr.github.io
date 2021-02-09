@@ -1,10 +1,10 @@
-var width = 500;
-var height = 500;
+var width = 300;
+var height = 300;
     
 	var svg = d3.select('#phyllotaxis')
 		.append('svg')
-		.attr('width', 500)
-		.attr('height', 500)
+		.attr('width', width)
+		.attr('height', height)
 		.attr('transform', 'translate(500,0)')
 		.append('g')
 		.attr('class', 'phyllotaxis');
