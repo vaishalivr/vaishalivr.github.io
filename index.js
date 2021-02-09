@@ -1,8 +1,7 @@
 var width = 300;
 var height = 300;
     
-	var svg = d3.select('#phyllotaxis')
-		.append('svg')
+	var svg = d3.select('svg')
 		.attr('width', width)
 		.attr('height', height)
 		.attr('transform', 'translate(1000,0)')
