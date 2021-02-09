@@ -6,6 +6,16 @@ body {
 .phyllotaxis {
   display:flex;
 }
+
+.header{
+  display:flex;
+}
+
+.introduction{
+  display:flex;
+  flex-direction:row;
+}
+
 .social {
   display:flex;
   max-width:100%;
