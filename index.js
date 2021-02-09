@@ -14,7 +14,6 @@ var height = 500;
 	    
 	svg.selectAll('.point').data(points)
 		.enter().append('circle')
-		.attr("class", "point")
   		.attr("cx", function(d) { return d[0] + radius; })
 	  	.attr("cy", function(d) { return d[1]; })
   		.attr("r", radius)
