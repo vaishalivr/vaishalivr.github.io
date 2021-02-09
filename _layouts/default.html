@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vaishali Verma</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
   </head>
   
   <body>
+	  <svg width = '500' height = '500'></svg>
     <header>
         <h1>Vaishali Verma</h1>
         <p>I deal with data + design + development and tell you a great story. </p>
@@ -157,6 +159,33 @@
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
+	    
+	var svg = d3.select('svg')
+		.attr('width', 500)
+		.attr('height', 500)
+		.append('g');
+	    
+	var radius = 3;
+	var points = d3.range(1000).map(phyllotaxis(10));
+	    
+	svg.selectAll('.point').data(points)
+		.enter().append('circle')
+		.attr("class", "point")
+  		.attr("cx", function(d) { return d[0] + radius; })
+	  	.attr("cy", function(d) { return d[1]; })
+  		.attr("r", radius)
+  		.style("fill", "#008800");
+	    
+	 function phyllotaxis(radius) {
+    		var theta = Math.PI * (3 - Math.sqrt(5));
+    		return function(i) {
+      			var r = radius * Math.sqrt(i), a = theta * i;
+      			return [
+        			width / 2 + r * Math.cos(a),
+        			height / 2 + r * Math.sin(a)
+      ];
+    };
+  }
     </script>
     
     {% endif %}
