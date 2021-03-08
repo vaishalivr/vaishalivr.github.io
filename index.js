@@ -30,7 +30,7 @@ d3.timer(function() {
 
     context.beginPath();
     context.arc(x, y, size, 0, 2 * Math.PI);
-    context.fillStyle = '#1e90ff';
+    context.fillStyle = '#90ee90';
     context.fill();
   }
 });
