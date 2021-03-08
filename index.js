@@ -32,8 +32,8 @@
    // };
  // }
 
-var width = 960,
-    height = 500,
+var width = 300,
+    height = 300,
     radius = 100;
 
 var theta = Math.PI * (3 - Math.sqrt(5)),
