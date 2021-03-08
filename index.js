@@ -47,7 +47,7 @@ var canvas = d3.select("body").append("canvas")
     .attr("width", radius * 3)
     .attr("height", radius * 3)
     .style("position", "absolute")
-    .style("left", width*4 + "px")
+    .style("left", width*3.25 + "px")
     .style("top", height/5 + "px")
 
 var context = canvas.node().getContext("2d");
